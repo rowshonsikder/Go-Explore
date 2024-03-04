@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+/* shared style start*/
+.red-color{
+    color: #FF5400;
+}
+/* shared style end  */
+
+header{
+    padding: 50px 130px;
+}
+.nav1{
+    display: flex;
+    text-align: center;
+}
+.nav2{
+    
+    gap: 44px;
+}
+
+
+.nav-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-section ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-section li a{
+    text-decoration: none;
+    
+}
+
+.banner-section{
+    background-image: url('../Images/Group\ 13\ .png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 50px auto;
+    align-items: center;
+
+}
+.banner-section,.banner-title, .banner-details {
+    text-align: center;
+
+}
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+
+}
+.banner-details{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
